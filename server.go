@@ -1,8 +1,8 @@
 package socketio
 
 import (
-	"code.google.com/p/go.net/websocket"
 	"fmt"
+	"golang.org/x/net/websocket"
 	"net/http"
 	"regexp"
 	"strings"
